@@ -10,5 +10,5 @@ const context = getContext();
 function handleIncomingMessage(data) {
     // Access the most recent message from the chat log
     let mostRecentMessage = context.chat[context.chat.length - 1];
-      Console.log(mostRecentMessage.name);
+      console.log("<SillyTrash extension> THIS IS A TEST : ", mostRecentMessage.name);
 }
