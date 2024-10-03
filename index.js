@@ -1,4 +1,4 @@
-import { getContext } from "../../extensions.js";
+import { getContext } from "../../../extensions.js";
 import { eventSource, event_types } from "../../../../script.js";
 
 // Register an event listener for incoming messages
